@@ -3,7 +3,12 @@ package Loops;
 public class Descending_Odd_Number {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
+		for(int j=20; j>0;j=j-10) {
+			
+			System.out.println(j);
+		}
 
 	}
 
