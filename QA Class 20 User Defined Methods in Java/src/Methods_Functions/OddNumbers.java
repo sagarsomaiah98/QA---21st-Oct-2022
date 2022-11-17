@@ -18,8 +18,10 @@ public class OddNumbers {
 
 	public static void main(String[] args) {
 		
-		OddNumbers O= new OddNumbers();
-		O.odd();
+		OddNumbers o1= new OddNumbers();
+		o1.odd();
+		
+		
 		
 	}
 

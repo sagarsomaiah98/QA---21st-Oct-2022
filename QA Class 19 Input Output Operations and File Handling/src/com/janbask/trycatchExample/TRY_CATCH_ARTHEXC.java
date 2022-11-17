@@ -3,31 +3,29 @@ package com.janbask.trycatchExample;
 public class TRY_CATCH_ARTHEXC {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		try {
-			
-		
+		try
+		{
 		 int a = 30;
          int b = 0;
          int c = a/b;  // cannot divide by zero
          System.out.println ("Result = " + c);
-         
 		}
-		
-		catch(Exception e1) {
-			
+		catch(Exception e1)
+		{
+			System.out.println("cannot execute try block");
+			System.out.println("failed to divide the number");
 			e1.printStackTrace();
-			System.out.println("inside catch block ");
-			System.out.println("cannot divide ");
+			
 		}
+         
          System.out.println("eND OF THE PROGRAM");
+         int k=40;
+         int m=1;
+         int u=k+m;
          
-         System.out.println("starting new program");
-         
-         System.out.println(" test case 1");
-         System.out.println(" test case 2");
-
+         System.out.println("addition of "+k+" and "+m +" is "+u);
+         System.out.println(k/m);
+		
+		
 	}
-
 }

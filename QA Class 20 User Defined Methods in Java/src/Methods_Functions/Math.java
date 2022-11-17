@@ -2,41 +2,40 @@ package Methods_Functions;
 
 public class Math {
 	
-	//accessModifier returnType method/function name		
-	public void  Addition()
+	//accessModifier returnType method/function name	
+	
+	public void addition()
 	
 	{
-       int a=10;
+		      int a=10;
+		      int b=20;
+		      int c=a+b;
+		      System.out.println("Addition of two numbers  "+a+" and "+b+" is "+c);	
 		
-		int b=20;
-		
-		int c=a+b;
-		
-		System.out.println("Addition of two numbers "+a+ "  and "+b+" is "+c);					
 	}
 	
-	public void subtraction() {
-		
-		 int t=70;
-			
-			int u=50;
-			
-			int k=t-u;
-			
-			System.out.println("Subtraction of two numbers "+t+ "  and "+u+" is "+k);
+	public void subtraction()
+	{
+		  int k=40;
+	      int j=30;
+	      int m=k-j;
+	      System.out.println("Subtaction of two numbers  "+k+" and "+j+" is "+m);
+	
 	}
 	
 	public static void main(String[] args) {
 		
-		//to access anything outside the main we need to create a object
-		//className object = new ClassName
+      //CLASSNAME OBJECT= NEW CLASSNAME();
 		
-		Math k1= new Math();
-		k1.Addition();
-		k1.subtraction();
-		k1.Addition();
-		k1.Addition();
+		Math test= new Math();
+		test.addition();
+		test.addition();
+		test.subtraction();
 		
+  
+  
+    
+  		
 		
 		
       
