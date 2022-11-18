@@ -24,13 +24,13 @@ public void  Division()
 			
 			System.out.println("Mutliplication of two numbers "+t+ "  and "+u+" is "+k);
 	}
-
 	public static void main(String[] args) {
 		
-		Operations obj= new Operations();
-		obj.Division();
-		obj.Mutliplication();
-
+		Operations o = new Operations();
+		o.Division();
+		o.Mutliplication();
+		
 	}
+
 
 }

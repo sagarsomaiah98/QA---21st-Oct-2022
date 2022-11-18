@@ -1,21 +1,23 @@
-package Methods_Functions;
+package Parameters;
 
 public class Math {
 	
 	//accessModifier returnType method/function name	
 	
-	public void addition(int a, int b) // arguments/parameters
+	public void addition()
 	
 	{
-		     
+		      int a=10;
+		      int b=20;
 		      int c=a+b;
 		      System.out.println("Addition of two numbers  "+a+" and "+b+" is "+c);	
 		
 	}
 	
-	public void subtraction(int j, int k)
+	public void subtraction()
 	{
-		 
+		  int k=40;
+	      int j=30;
 	      int m=k-j;
 	      System.out.println("Subtaction of two numbers  "+k+" and "+j+" is "+m);
 	
@@ -26,11 +28,9 @@ public class Math {
       //CLASSNAME OBJECT= NEW CLASSNAME();
 		
 		Math test= new Math();
-		test.subtraction(10,20);
-		test.subtraction(30,15);
-		test.subtraction(60,40);
-		test.subtraction(20,36);
-		test.subtraction(90,50);
+		test.addition();
+		test.addition();
+		test.subtraction();
 		
   
   

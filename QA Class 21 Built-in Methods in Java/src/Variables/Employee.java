@@ -1,8 +1,9 @@
 package Variables;
 
 public class Employee {
-	String role="manager";//global variables
+  String role="manager";//global variables
 	double salary=521.36;//global variables
+	
 	
 //local variable scope is only inside the function/method
 	//local variable cannot be called outside the function/method
@@ -11,30 +12,30 @@ public class Employee {
 		int age=30; //local variable
 		String name="john";//local variable
 		
-		System.out.println("calling employee info ->"+age+" "+name);
+		System.out.println(age);
+		System.out.println(name);
 		System.out.println(role);
-		System.out.println(salary);
-		
+
 	}
 	
 	public void emp_medi() {
-		
+		String name="Henry";
 		int medi_no=2341;//local variable
 		String plan="Basic"; //local variable
-		System.out.println("calling medi info-> "+medi_no+" "+plan);
-		System.out.println(role);
-		System.out.println(salary);
-	//	System.out.println(age);
-	//	System.out.println(name);
-		
+	System.out.println(name);
+	System.out.println(medi_no);
+	System.out.println(plan);
+	System.out.println(role);
+	
 	}
 
 	public static void main(String[] args) {
-		Employee n = new Employee();
-		//n.emp_medi();
-		System.out.println(n.role);
-		System.out.println(n.salary);
 		
+	Employee e= new Employee();
+	e.emp_info();
+	e.emp_medi();
+	System.out.println(e.role);	
+	System.out.println(e.salary);
 		
 		
 		

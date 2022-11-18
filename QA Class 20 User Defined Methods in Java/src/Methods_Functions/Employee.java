@@ -1,5 +1,7 @@
 package Methods_Functions;
 
+import External_Calling.Operations;
+
 public class Employee {
 	
 	String name="John";
@@ -18,6 +20,10 @@ public class Employee {
 		e.info();
 		System.out.println(e.name);
 		System.out.println(e.age);
+		
+		Operations k= new Operations();
+		k.Division();
+		k.Mutliplication();
 
 	}
 

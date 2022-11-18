@@ -18,12 +18,7 @@ public class Student {
 
 	public static void main(String[] args) {
 		
-		Student s = new Student();
-		s.stud_info();
-		
-		System.out.println("StudentName "+s.name);
-		//System.out.println("Grade "+grade);
-		System.out.println("Marks "+s.marks);
+	
 		
 		
 		

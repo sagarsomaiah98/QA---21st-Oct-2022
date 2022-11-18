@@ -14,9 +14,7 @@ public class Cust {
 
 	public static void main(String[] args) {
 		
-		Cust c = new Cust();
-		c.cust_info();
-		c.cust_salary();
+	
 	}
 
 }

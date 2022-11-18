@@ -13,19 +13,23 @@ public class Stud {
 		System.out.println("Grade "+grade);
 			
 	}
-	public static void display() {
+	public  void display() {
 		
 		System.out.println("calling display method");
 	}
 	
 
 	public static void main(String[] args) {
-		
+	
 		stud_info();
-		display();
-			
-		System.out.println(marks);
-		System.out.println(name);
+		Stud s = new Stud();
+		s.display();
+		
+	
+	
+	
+	System.out.println(marks);
+	System.out.println(name);
 		
 		
 		
