@@ -12,7 +12,7 @@ public class Addition {
 	}
 	public void add(int a, int b,int c) {
 		int d=a+b+c;
-		System.out.println("Addition of thre numbers "+a+" and  "+b+" and "+c+" is "+d);
+		System.out.println("Addition of three numbers "+a+" and  "+b+" and "+c+" is "+d);
 		
 	}
 	
@@ -29,12 +29,12 @@ public class Addition {
 	public static void main(String[] args) {
 		
 		Addition a = new Addition();
-		a.add();
-		a.add(20,5);
-		a.add(10,2,3);
-		a.add(5,3);
-		a.add("john",23);
-		a.add(2,4,7);
+		a.add();// Adddition
+		a.add(20,5);//Addition of two numbers
+		a.add(10,2,3);//Addition of three numbers
+		a.add(5,3);//Addition of two numbers
+		a.add("john",23);//adding 
+		a.add(2,4,7);//Addition of three numbers
 		
 
 	}

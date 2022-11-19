@@ -30,7 +30,7 @@ public void method5() {
 		Grand_Child g= new Grand_Child();
 		g.method5();
 		g.method1();
-		g.method2();
+		
 		g.method3();
 		g.method4();
 

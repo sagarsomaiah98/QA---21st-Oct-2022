@@ -2,13 +2,13 @@ package com.janbask.AbstractExample;
 
 
 
-public abstract class Abs_Ex {
+public abstract  class Abs_Ex {
 	
 	//unimplemented method
-	public abstract void method1();
+	public abstract  void method1();
 	
-	public abstract void house();
-	public abstract void car();
+	public abstract  void house();
+	public abstract  void car();
 	
 	//implemented method
 	public void method2() {

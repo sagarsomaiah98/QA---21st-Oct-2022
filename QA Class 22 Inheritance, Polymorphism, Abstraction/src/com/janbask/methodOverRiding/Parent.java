@@ -1,5 +1,6 @@
 package com.janbask.methodOverRiding;
 public class Parent {
+	String name="Wayne";
 	
 	public void method1() {
 		

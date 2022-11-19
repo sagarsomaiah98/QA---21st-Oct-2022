@@ -7,7 +7,7 @@ public class String_CharAt {
 		
 		String value="WELCOME TO JANBASK";
 		
-		System.out.println(value.charAt(8));
+		System.out.println(value.charAt(0));
 
 	}
 

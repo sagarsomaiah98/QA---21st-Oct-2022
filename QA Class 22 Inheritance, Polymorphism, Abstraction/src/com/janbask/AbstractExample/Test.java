@@ -7,12 +7,15 @@ public class Test extends Abs_Ex {
 		Test t = new Test();
 		t.method1();
 		t.method2();
+		t.car();
+		t.cash();
+		t.house();
 		
 	}
 
 	@Override
 	public void method1() {
-System.out.println("calling method 1 in test class");
+		// TODO Auto-generated method stub
 		
 	}
 
@@ -27,5 +30,7 @@ System.out.println("calling method 1 in test class");
 		// TODO Auto-generated method stub
 		
 	}
+
+
 
 }

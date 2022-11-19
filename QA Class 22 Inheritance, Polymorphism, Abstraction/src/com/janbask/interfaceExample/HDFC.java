@@ -1,31 +1,22 @@
 package com.janbask.interfaceExample;
 
-public class HDFC implements CentralBank{
+public class HDFC implements Central_Bank {
 
-	public static void main(String[] args) {
-	HDFC H = new HDFC();
-	H.savings();
-	H.homeloans();
-	H.creditcard();
-		
-	}
+	
 
 	@Override
 	public void savings() {
-		System.out.println("HDFC SAVINGS ACCOUNT MIN BALANCE IS 25000$");
-	}
-
-	@Override
-	public void homeloans() {
-		System.out.println("HDFC OFFERS HOME LOANS FOR 4%");
+		System.out.println("HDFC has minimum balance of 25000$");
 		
 	}
 
 	@Override
-	public void creditcard() {
-		System.out.println("HDFC OFFERS CREDIT CARD WITH 100$ FEE");
+	public void loan() {
+		System.out.println("HDFC loan interest is 4.5%");
 		
 	}
+
+	
 
 	@Override
 	public void kyc() {
@@ -33,12 +24,15 @@ public class HDFC implements CentralBank{
 		
 	}
 
-	@Override
-	public void method1() {
-		// TODO Auto-generated method stub
+	
+public static void main(String[] args) {
+		
+		HDFC h = new HDFC();
+		h.savings();
+		
+		h.loan();
+
 		
 	}
-
-
 
 }
