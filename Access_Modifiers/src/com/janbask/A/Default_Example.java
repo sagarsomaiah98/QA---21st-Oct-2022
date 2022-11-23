@@ -1,6 +1,6 @@
 package com.janbask.A;
 
-public class Default_Example {
+ class Default_Example {
 
 	 int age=23;
 	 String name="Andrew";

@@ -11,6 +11,7 @@ public class Test {
 		 * System.out.println(p.age); System.out.println(p.name);
 		 */
 		 
+		 
 		
 		
 		  Default_Example d = new Default_Example(); 
