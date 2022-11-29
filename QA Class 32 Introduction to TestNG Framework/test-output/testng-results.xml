@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-03T22:02:17 GMT-04:00" name="Suite" finished-at="2022-10-03T22:02:51 GMT-04:00" duration-ms="33691">
+    <groups>
+    </groups>
+    <test started-at="2022-10-03T22:02:17 GMT-04:00" name="Test" finished-at="2022-10-03T22:02:51 GMT-04:00" duration-ms="33691">
+      <class name="com.janbask.testngTescases.LoginTest">
+        <test-method signature="login()[pri:0, instance:com.janbask.testngTescases.LoginTest@6b8ca3c8]" started-at="2022-10-03T22:02:33 GMT-04:00" name="login" finished-at="2022-10-03T22:02:42 GMT-04:00" duration-ms="8827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.janbask.testngTescases.LoginTest -->
+      <class name="com.janbask.testngTescases.LogOutTest">
+        <test-method signature="logout()[pri:0, instance:com.janbask.testngTescases.LogOutTest@40cb8df7]" started-at="2022-10-03T22:02:18 GMT-04:00" name="logout" finished-at="2022-10-03T22:02:33 GMT-04:00" duration-ms="15606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.janbask.testngTescases.LogOutTest -->
+      <class name="com.janbask.testngTescases.AddToCartTest">
+        <test-method signature="addtocart()[pri:0, instance:com.janbask.testngTescases.AddToCartTest@68c72235]" started-at="2022-10-03T22:02:42 GMT-04:00" name="addtocart" finished-at="2022-10-03T22:02:51 GMT-04:00" duration-ms="9117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+      </class> <!-- com.janbask.testngTescases.AddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
