@@ -12,30 +12,15 @@ public class Double_Click {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "S:\\JANBASK\\QA - 19th Aug 2022\\DRIVERS\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
 		driver.manage().window().maximize();
-		
 		driver.get("https://demoqa.com/buttons");
-		driver.manage().window().maximize();
-
-		Actions a = new Actions(driver);
-
-
 		
-
-		WebElement trialaction = driver.findElement(By.xpath("//button[@id='doubleClickBtn']"));
-		WebElement ele= driver.findElement(By.xpath("//button[@id='rightClickBtn']"));
+		WebElement double_button= driver.findElement(By.xpath("//button[@id='doubleClickBtn']"));
 		
-		Thread.sleep(3000);
-
-		a.doubleClick(trialaction).perform();
-		
-		a.contextClick(ele).perform();
-		
-	
-		
+		Thread.sleep(2000);
+		Actions act = new Actions(driver);
+		act.doubleClick(double_button).build().perform();
 		
 		
 

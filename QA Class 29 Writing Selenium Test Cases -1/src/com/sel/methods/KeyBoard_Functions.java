@@ -12,7 +12,7 @@ public class KeyBoard_Functions {
 	public static void main(String[] args) throws InterruptedException {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "S:\\JANBASK\\QA - 19th Aug 2022\\DRIVERS\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
