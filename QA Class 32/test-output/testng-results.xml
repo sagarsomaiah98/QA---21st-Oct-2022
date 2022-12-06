@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-05T20:52:42 GMT-05:00" name="Default suite" finished-at="2022-12-05T20:52:42 GMT-05:00" duration-ms="78">
+    <groups>
+    </groups>
+    <test started-at="2022-12-05T20:52:42 GMT-05:00" name="Default test" finished-at="2022-12-05T20:52:42 GMT-05:00" duration-ms="78">
+      <class name="Priority_Ex">
+        <test-method signature="agrade()[pri:1, instance:Priority_Ex@5939a379]" started-at="2022-12-05T20:52:42 GMT-05:00" name="agrade" finished-at="2022-12-05T20:52:42 GMT-05:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- agrade -->
+        <test-method signature="branch()[pri:1, instance:Priority_Ex@5939a379]" started-at="2022-12-05T20:52:42 GMT-05:00" name="branch" finished-at="2022-12-05T20:52:42 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branch -->
+        <test-method signature="salary()[pri:3, instance:Priority_Ex@5939a379]" started-at="2022-12-05T20:52:42 GMT-05:00" name="salary" finished-at="2022-12-05T20:52:42 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salary -->
+        <test-method signature="pf()[pri:4, instance:Priority_Ex@5939a379]" started-at="2022-12-05T20:52:42 GMT-05:00" name="pf" finished-at="2022-12-05T20:52:42 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pf -->
+      </class> <!-- Priority_Ex -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
