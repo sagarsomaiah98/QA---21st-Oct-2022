@@ -210,3 +210,4 @@
 2022-12-02 20:48:05,004 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\QA - 21st Oct 2022\SampleMvn\src\main\resources
 2022-12-02 20:48:05,009 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-12-02 20:48:05,009 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\QA - 21st Oct 2022\SampleMvn\src\test\resources
+2022-12-05 19:38:56,631 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
