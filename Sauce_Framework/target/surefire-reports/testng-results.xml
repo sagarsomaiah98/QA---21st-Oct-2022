@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T20:33:00 GMT-05:00" name="Surefire suite" finished-at="2022-12-07T20:33:13 GMT-05:00" duration-ms="13325">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T20:33:00 GMT-05:00" name="Surefire test" finished-at="2022-12-07T20:33:13 GMT-05:00" duration-ms="13325">
+      <class name="com.sauce.testcases.LoginTest">
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LoginTest@78dd667e]" started-at="2022-12-07T20:33:05 GMT-05:00" name="intial" finished-at="2022-12-07T20:33:06 GMT-05:00" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="invalidlogin()[pri:0, instance:com.sauce.testcases.LoginTest@78dd667e]" started-at="2022-12-07T20:33:06 GMT-05:00" name="invalidlogin" finished-at="2022-12-07T20:33:07 GMT-05:00" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@78dd667e]" started-at="2022-12-07T20:33:07 GMT-05:00" name="teardown" finished-at="2022-12-07T20:33:07 GMT-05:00" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LoginTest@78dd667e]" started-at="2022-12-07T20:33:07 GMT-05:00" name="intial" finished-at="2022-12-07T20:33:09 GMT-05:00" duration-ms="1898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="login()[pri:0, instance:com.sauce.testcases.LoginTest@78dd667e]" started-at="2022-12-07T20:33:09 GMT-05:00" name="login" finished-at="2022-12-07T20:33:10 GMT-05:00" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@78dd667e]" started-at="2022-12-07T20:33:10 GMT-05:00" name="teardown" finished-at="2022-12-07T20:33:10 GMT-05:00" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.testcases.LoginTest -->
+      <class name="com.sauce.testcases.LogoutTest">
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LogoutTest@10db82ae]" started-at="2022-12-07T20:33:10 GMT-05:00" name="intial" finished-at="2022-12-07T20:33:12 GMT-05:00" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="logouttest()[pri:0, instance:com.sauce.testcases.LogoutTest@10db82ae]" started-at="2022-12-07T20:33:12 GMT-05:00" name="logouttest" finished-at="2022-12-07T20:33:13 GMT-05:00" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LogoutTest@10db82ae]" started-at="2022-12-07T20:33:13 GMT-05:00" name="teardown" finished-at="2022-12-07T20:33:13 GMT-05:00" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.testcases.LogoutTest -->
+      <class name="com.sauce.testcases.AddtocartTest">
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.AddtocartTest@258e2e41]" started-at="2022-12-07T20:33:00 GMT-05:00" name="intial" finished-at="2022-12-07T20:33:03 GMT-05:00" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="addtocart()[pri:0, instance:com.sauce.testcases.AddtocartTest@258e2e41]" started-at="2022-12-07T20:33:03 GMT-05:00" name="addtocart" finished-at="2022-12-07T20:33:04 GMT-05:00" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.AddtocartTest@258e2e41]" started-at="2022-12-07T20:33:04 GMT-05:00" name="teardown" finished-at="2022-12-07T20:33:05 GMT-05:00" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.testcases.AddtocartTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

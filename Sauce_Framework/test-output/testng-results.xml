@@ -1,37 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-06T21:12:37 GMT-05:00" name="Default suite" finished-at="2022-12-06T21:12:51 GMT-05:00" duration-ms="14156">
+  <suite started-at="2022-12-07T20:28:46 GMT-05:00" name="Suite" finished-at="2022-12-07T20:29:00 GMT-05:00" duration-ms="13242">
     <groups>
     </groups>
-    <test started-at="2022-12-06T21:12:37 GMT-05:00" name="Default test" finished-at="2022-12-06T21:12:51 GMT-05:00" duration-ms="14156">
+    <test started-at="2022-12-07T20:28:46 GMT-05:00" name="Test" finished-at="2022-12-07T20:29:00 GMT-05:00" duration-ms="13242">
       <class name="com.sauce.testcases.LoginTest">
-        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LoginTest@27f981c6]" started-at="2022-12-06T21:12:37 GMT-05:00" name="intial" finished-at="2022-12-06T21:12:44 GMT-05:00" duration-ms="6806" status="PASS">
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LoginTest@4659191b]" started-at="2022-12-07T20:28:46 GMT-05:00" name="intial" finished-at="2022-12-07T20:28:50 GMT-05:00" duration-ms="3569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intial -->
-        <test-method signature="invalidlogin()[pri:0, instance:com.sauce.testcases.LoginTest@27f981c6]" started-at="2022-12-06T21:12:44 GMT-05:00" name="invalidlogin" finished-at="2022-12-06T21:12:44 GMT-05:00" duration-ms="459" status="PASS">
+        <test-method signature="invalidlogin()[pri:0, instance:com.sauce.testcases.LoginTest@4659191b]" started-at="2022-12-07T20:28:50 GMT-05:00" name="invalidlogin" finished-at="2022-12-07T20:28:51 GMT-05:00" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidlogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@27f981c6]" started-at="2022-12-06T21:12:44 GMT-05:00" name="teardown" finished-at="2022-12-06T21:12:45 GMT-05:00" duration-ms="940" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@4659191b]" started-at="2022-12-07T20:28:51 GMT-05:00" name="teardown" finished-at="2022-12-07T20:28:51 GMT-05:00" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LoginTest@27f981c6]" started-at="2022-12-06T21:12:45 GMT-05:00" name="intial" finished-at="2022-12-06T21:12:50 GMT-05:00" duration-ms="4389" status="PASS">
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LoginTest@4659191b]" started-at="2022-12-07T20:28:51 GMT-05:00" name="intial" finished-at="2022-12-07T20:28:53 GMT-05:00" duration-ms="1862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intial -->
-        <test-method signature="login()[pri:0, instance:com.sauce.testcases.LoginTest@27f981c6]" started-at="2022-12-06T21:12:50 GMT-05:00" name="login" finished-at="2022-12-06T21:12:50 GMT-05:00" duration-ms="544" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.sauce.testcases.LoginTest@4659191b]" started-at="2022-12-07T20:28:53 GMT-05:00" name="login" finished-at="2022-12-07T20:28:53 GMT-05:00" duration-ms="707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@27f981c6]" started-at="2022-12-06T21:12:50 GMT-05:00" name="teardown" finished-at="2022-12-06T21:12:51 GMT-05:00" duration-ms="948" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LoginTest@4659191b]" started-at="2022-12-07T20:28:53 GMT-05:00" name="teardown" finished-at="2022-12-07T20:28:54 GMT-05:00" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.sauce.testcases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.sauce.testcases.LogoutTest">
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.LogoutTest@2794eab6]" started-at="2022-12-07T20:28:54 GMT-05:00" name="intial" finished-at="2022-12-07T20:28:55 GMT-05:00" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="logouttest()[pri:0, instance:com.sauce.testcases.LogoutTest@2794eab6]" started-at="2022-12-07T20:28:55 GMT-05:00" name="logouttest" finished-at="2022-12-07T20:28:56 GMT-05:00" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.LogoutTest@2794eab6]" started-at="2022-12-07T20:28:56 GMT-05:00" name="teardown" finished-at="2022-12-07T20:28:56 GMT-05:00" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.testcases.LogoutTest -->
+      <class name="com.sauce.testcases.AddtocartTest">
+        <test-method is-config="true" signature="intial()[pri:0, instance:com.sauce.testcases.AddtocartTest@6340e5f0]" started-at="2022-12-07T20:28:56 GMT-05:00" name="intial" finished-at="2022-12-07T20:28:58 GMT-05:00" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intial -->
+        <test-method signature="addtocart()[pri:0, instance:com.sauce.testcases.AddtocartTest@6340e5f0]" started-at="2022-12-07T20:28:58 GMT-05:00" name="addtocart" finished-at="2022-12-07T20:28:59 GMT-05:00" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.testcases.AddtocartTest@6340e5f0]" started-at="2022-12-07T20:28:59 GMT-05:00" name="teardown" finished-at="2022-12-07T20:29:00 GMT-05:00" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.testcases.AddtocartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
