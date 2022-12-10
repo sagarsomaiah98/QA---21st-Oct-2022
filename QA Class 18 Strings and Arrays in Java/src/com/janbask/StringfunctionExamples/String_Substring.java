@@ -7,7 +7,7 @@ public class String_Substring {
 		
 		String str= "WELCOME TO JANBASK";
 		
-		//System.out.println(str.substring(2));
+	   System.out.println(str.substring(8));
 		System.out.println(str.substring(5,10));
 		System.out.println(str.substring(8));
 		System.out.println(str.substring(10));
